@@ -1,3 +1,4 @@
-TELEGRAM_TOKEN = "7631138859:AAG89_puabgGIt8lqgjrYyJq0X7ZxZ0Gzp8"
+import os
 
-CHAT_ID = 818142506
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+CHAT_ID = int(os.environ.get("CHAT_ID"))
